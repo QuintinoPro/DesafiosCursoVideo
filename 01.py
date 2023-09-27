@@ -35,16 +35,25 @@ alt = float(input("Altura: "))
 area = larg * alt
 litro = 2
 litros = area/2
-print(f'Precisa de {litros} para pintar')
+print(f'Precisa de {litros} litros para pintar')
 
 print("\n------Desafio 12")
 preco = float(input("Preco: "))
-print(f'O novo preco é {preco - (preco * 0.05):.2f}')
+print(f'O novo preco com 5% de desconto é {preco - (preco * 0.05):.2f}')
 
 print("\n------Desafio 13")
 sala = float(input("Digite seu Salario: "))
 print(f'Salario com 15% de Aumento {sala + (sala * 0.15):.2f}')
 
+print("\n------Desafio 14")
+celsius = float(input("Digite a Temperatura em  Celsius: "))
+fahrenheit = (celsius * 9/5) + 32
+print(f'A Temperatura de Fahrenheit é: {fahrenheit}')
+
+print("\n------Desafio 15")
+km = float(input("Digite a quantidade de Km percorridos: "))
+dias = int(input("Digite a quantidade de dias que o carro foi Alugado: "))
+print(f'O valor total a Pagar é: {(60 * dias) + (km * 0.15)}')
 
 
 
