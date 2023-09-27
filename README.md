@@ -1,4 +1,4 @@
-<h1 align="center">Quiz Python</h1>
+<h1 align="center">Desafios Python</h1>
 
 <p align="center">
  <img src="./img.png">
